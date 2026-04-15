@@ -4,7 +4,7 @@ from collections import defaultdict
 
 QEEPL_REF = "https://qeepl.com/ru/map?discount=SBUHJKBO"
 RADICAL_PARAMS = "?erid=2VtzqvWLUd3&track_id=c29a6ef0036745e991d79dad4-549016&utm_term=travelpayouts"
-SITE_DOMAIN = "https://luggage-nu.vercel.app"  # <-- замени на свой домен
+SITE_DOMAIN = "bag-catalog.vercel.app"  # <-- замени на свой домен
 
 def radical_city_url(slug):
     return f"https://radicalstorage.com/ru/kamery-hranenija/{slug}/{RADICAL_PARAMS}"
